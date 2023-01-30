@@ -176,6 +176,13 @@ class Game{
                 }
             }
             
+            if(coinBGroup.length > 0){
+                for(var i = 0; i < coinBGroup.length; i++){
+                    coinBGroup[i].velocity.x = -10 * (this.speed);
+                    coinBGroup[i].visible  = true
+                }
+            }
+            
 
         } else if(gameState === "end"){
             this.pause.hide()
