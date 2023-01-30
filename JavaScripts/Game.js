@@ -353,6 +353,7 @@ class Game{
 
             obstacleGroup.remove();
             coinGroup.remove();
+            coinBGroup.remove();
             // this.player.x = 600; this.player.y = windowHeight - 120;
             
         }
